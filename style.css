@@ -1,4 +1,23 @@
 body {
-    margin-left: 800px;
-    margin-right: 800px;
+    margin: auto;
+    width: 50%;
+    border: 1px black solid;
+}
+h2 {
+    background-color: yellowgreen;
+}
+.lewy {
+    width: 360px;
+background-color: peachpuff;
+border: solid black 1px;
+float: left;
+}
+.prawy {
+    width: 360px;
+    border: solid black 1px;
+background-color: pink;
+float: left;
+}
+.page {
+    overflow: auto;
 }
